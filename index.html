@@ -1,157 +1,49 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-    <title>Alexander Fischer</title>
+<html lang="en">
+<head>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Alexander Fischer - Student</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <!-- 'Lato' font (from Google Fonts) -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic' rel='stylesheet' type='text/css'>
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Icons -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
 
-    <!-- CSS file -->
-    <link href="style/style.css" rel="stylesheet">
-  </head>
-  <body>
-    <!-- target for skills link in the nav bar -->
-    <div class="anchor" id="top"></div>
-    <!-- Header and nav bar -->
-    <header class="header">
-      <div class="container">
-        <div class="titles">
-          <p id="title-name">Alexander Fischer</p>
-          <p id="subtitle">Student</p>
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <section class="intro">
+    <div class="container">
+      <div class="row">
+        <div class="one-half column u-pull-right">
+          <h4 class="title-name">Alexander Fischer</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
-        <ul class="nav">
-          <li class="nav-item"><a href="#top">About</a></li>
-          <li class="nav-item"><a href="#skills">Skills</a></li>
-          <li class="nav-item"><a href="#contact">Contact</a></li>
-        </ul>
       </div>
-    </header>
-
-    <!-- main section -->
-    <main>
-      <!-- Picture and short intro about me -->
-      <section id="bio" class="bio">
-        <div class="container">
-          <div class="picture-outer">
-            <!-- the picture is wrapped in a div for alignment reasons -->
-            <div class="picture"></div>
-          </div>
-          <div class="about">
-            <h1>About me</h1>
-            <p>
-              Hello, my name is Alexander and I live in Lugano. I'm a second-year student at the faculty of Informatics of USI (<i>Università della Svizzera italiana</i>).
-              <br>
-              I'm passionate about tech and computer science in general, and in my free time I like programming.
-              <br>
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <!-- target for skills link in the nav bar -->
-      <div class="anchor" id="skills"></div>
-
-      <!-- Skills section -->
-      <section class="skills">
-        <div class="container">
-          <h1>Skills</h1>
-          <div class="row-1">
-            <div class="general">
-              <h2>General tech</h2>
-              <ul>
-                <li>Good knowledge of <i>Windows</i>, and basic knowledge of <i>OS X</i> and <i>Linux</i>-based operating systems.</li>
-                <li>Experience in detecting and troubleshooting both software and hardware issues.</li>
-              </ul>
-            </div>
-            <div class="lang">
-              <h2>Languages</h2>
-              <table>
-                <tr>
-                  <td><strong>Italian</strong></td>
-                  <td>Mother tongue</td>
-                </tr>
-                <tr>
-                  <td><strong>English</strong></td>
-                  <td>B2-C1 Level, spoken and written</td>
-                </tr>
-                <tr>
-                  <td><strong>German</strong></td>
-                  <td>B1 Level, spoken and written</td>
-                </tr>
-              </table>
-            </div>
-          </div>
-          <div class="row-2">
-            <h2>Programming languages</h2>
-            <div class="skills-container">
-              <div class="basic">
-                <h3>Basic knowledge</h3>
-                <ul>
-                  <li><strong>Front-end web development:</strong> able to create simple responsive web pages.</li>
-                  <li><strong>Unix shell</strong></li>
-                  <li><strong>LaTeX</strong></li>
-                  <li><strong>Parallelism/Concurrency</strong> in Java (threads, fork/join framework) and C (OpenMP, OpenCL).</li>
-                </ul>
-              </div>
-              <div class="intermediate">
-                <h3>Intermediate knowledge</h3>
-                <table>
-                  <tr>
-                    <td><strong>C/C++</strong></td>
-                    <td>small personal projects</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Java</strong></td>
-                    <td>small personal and academic projects</td>
-                  </tr>
-                  <tr>
-                    <td><strong>Python</strong></td>
-                    <td>small personal projects</td>
-                  </tr>
-                </table>
-              </div>
-            </div>
-          </div>
-          <p class="cv">
-            For more details <a href="media/curriculum.pdf">here</a> is my complete <em>CV</em> as well.
-          </p>
-        </div>
-      </section>
-
-      <!-- Footer with contact info -->
-      <footer class="footer" id="contact">
-        <div class="contact container">
-          <h3>Contact me</h3>
-          <ul>
-            <li>
-              <!-- the envelope icon -->
-              <i class="fa fa-envelope-o" aria-hidden="true"></i>
-              <a href="mailto:alexander.fischer@usi.ch">
-                      alexander.fischer@usi.ch</a>
-            </li>
-            <li>
-              <!-- the envelope icon -->
-              <i class="fa fa-github" aria-hidden="true"></i>
-              <a href="https://github.com/taier1/">
-                      github.com/taier1</a>
-            </li>
-          </ul>
-          <p id="top-link">
-            <!-- links to the top of the page -->
-            <a href="#top">Top</a>
-          </p>
-        </div>
-      </footer>
-    </main>
-    <script src="js/scroll.js"></script>
-  </body>
+    </div>
+  </section>
 
 
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
 </html>

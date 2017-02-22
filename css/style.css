@@ -1,0 +1,15 @@
+.title-name {
+  text-align: right;
+}
+
+.intro {
+  background-color: black;
+  padding: 20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+}
+
+.intro p, .intro h4 {
+  color: white;
+}
