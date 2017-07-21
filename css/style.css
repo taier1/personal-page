@@ -74,9 +74,69 @@
   text-align: center;
 }
 
-.table-title {
+.table-title, .project-title {
   color: black;
   text-align: center;
+}
+
+
+.project-title {
+  color: white;
+  background-color: black;
+  padding: 0px;
+  margin: 0;
+  z-index: 100;
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
+
+.project-title h3 {
+  font-size: 18px;
+  margin: 0 auto;
+  line-height: 50px;
+}
+
+.project-item {
+  position: relative;
+}
+
+.project-overlay {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  -webkit-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.project-overlay p {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.project-item:hover .project-overlay {
+  height: 100%;
+}
+
+
+
+
+.project-img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
+  max-width: 100%;
+  margin-bottom: -35px;
+  overflow: hidden;
 }
 
 .contact {
