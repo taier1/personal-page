@@ -2,7 +2,7 @@
   text-align: right;
 }
 
-#my-name{
+#my-name {
   font-size: 72px;
   padding-bottom: 50px;
   font-weight: 400;
@@ -17,7 +17,6 @@
   min-height: 100vh;
   margin-top: auto;
   margin-bottom: auto;
-
 }
 
 .intro {
@@ -31,17 +30,17 @@
   font-weight: 100;
 }
 
-.intro h1,h2 {
+.intro h1, h2 {
   color: white;
 }
 
 .intro p {
-  color: rgba(255,255,255, 0.85);
+  color: rgba(255, 255, 255, 0.85);
   padding-top: 20px;
   text-align: right;
 }
 
-.down{
+.down {
   /*padding: 200px 0;*/
   text-align: center;
   height: 50px;
@@ -49,16 +48,17 @@
   margin-bottom: 50px;
 }
 
-.down > a{
+.down>a {
   padding: 20px;
   font-size: 32px;
   text-decoration: none;
   color: white;
 }
 
-#skills-section .down a{
+#skills-section .down a {
   color: black;
 }
+
 
 /*#skills-section > a {
   position: relative;
@@ -78,7 +78,6 @@
   color: black;
   text-align: center;
 }
-
 
 .project-title {
   color: white;
@@ -126,9 +125,6 @@
 .project-item:hover .project-overlay {
   height: 100%;
 }
-
-
-
 
 .project-img {
   width: 100%;
