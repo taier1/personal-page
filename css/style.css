@@ -99,6 +99,8 @@
 
 .project-item {
   position: relative;
+  display: block;
+  text-decoration: none;
 }
 
 .project-overlay {
