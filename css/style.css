@@ -94,6 +94,7 @@
   position: relative;
   display: block;
   text-decoration: none;
+  margin-bottom: 30px;
 }
 
 .project-overlay {
@@ -114,10 +115,27 @@
   text-align: center;
   margin-top: 50px;
   padding: 20px;
+  margin-bottom: 10px;
 }
 
-.project-item:hover .project-overlay {
+.project-item:hover .project-overlay,
+.project-item:active .project-overlay {
   height: 100%;
+}
+
+.gh-logo {
+  font-size: 56px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  text-decoration: none;
+}
+
+.gh-logo i {
+  margin: 0 auto;
+  text-align: center;
+  color: white;
 }
 
 .project-img {
@@ -153,4 +171,8 @@
   margin-left: 5px;
   color: white;
   text-decoration: none;
+}
+
+#copyright {
+  margin-bottom: 40px;
 }
