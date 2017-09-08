@@ -60,11 +60,12 @@
 }
 
 #skills-section {
-  min-height: 100vh;
+  padding-bottom: 100px;
 }
 
 .skills h1 {
-  padding-top: 50px;
+  padding: 50px;
+  margin-bottom: 0;
   text-align: center;
 }
 
